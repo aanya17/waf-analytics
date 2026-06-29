@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
-const API = 'http://localhost:5000'
+const API = 'https://fluffy-space-giggle-g44ppvg75qq9hvq6q-5000.app.github.dev'
 
 function StatCard({ label, value, sub, color, icon }) {
   return (

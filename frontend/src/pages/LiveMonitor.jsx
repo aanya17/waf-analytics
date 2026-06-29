@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const API = 'http://localhost:5000'
+const API = 'https://fluffy-space-giggle-g44ppvg75qq9hvq6q-5000.app.github.dev'
 
 function actionColor(action) {
   if (action === 'ALLOWED') return 'var(--green)'

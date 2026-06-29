@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://localhost:5000'
+const API = 'https://fluffy-space-giggle-g44ppvg75qq9hvq6q-5000.app.github.dev'
 
 const severityColor = { HIGH: 'var(--red)', MEDIUM: 'var(--amber)', LOW: 'var(--green)' }
 const severityBg = { HIGH: 'var(--red-dim)', MEDIUM: 'var(--amber-dim)', LOW: 'var(--green-dim)' }
