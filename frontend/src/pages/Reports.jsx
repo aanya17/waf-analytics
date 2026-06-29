@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'https://fluffy-space-giggle-g44ppvg75qq9hvq6q-5000.app.github.dev'
+const API = 'https://waf-analytics-93i70o9v1-aas-projects-48571e8c.vercel.app'
 
 export default function Reports() {
   const [stats, setStats] = useState(null)
