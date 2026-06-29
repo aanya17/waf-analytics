@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'https://waf-analytics-60ptpqi6x-aas-projects-48571e8c.vercel.app'
+const API = 'https://waf-analytics.vercel.app'
 
 const severityColor = { HIGH: 'var(--red)', MEDIUM: 'var(--amber)', LOW: 'var(--green)' }
 const severityBg = { HIGH: 'var(--red-dim)', MEDIUM: 'var(--amber-dim)', LOW: 'var(--green-dim)' }

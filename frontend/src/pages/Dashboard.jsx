@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
-const API = 'https://waf-analytics-60ptpqi6x-aas-projects-48571e8c.vercel.app'
+const API = 'https://waf-analytics.vercel.app'
 
 function StatCard({ label, value, sub, color, icon }) {
   return (

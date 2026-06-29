@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const API = 'https://waf-analytics-60ptpqi6x-aas-projects-48571e8c.vercel.app'
+const API = 'https://waf-analytics.vercel.app'
 
 function actionColor(action) {
   if (action === 'ALLOWED') return 'var(--green)'
